@@ -23,6 +23,8 @@ public class TestHello {
      * @return
      */
     public static String getUUID(){
+        System.out.println("Hello World!! my");
+        System.out.println("Hello World!! my");
         String seqId = UUID.randomUUID().toString().replaceAll("-","");
         return seqId;
     }
